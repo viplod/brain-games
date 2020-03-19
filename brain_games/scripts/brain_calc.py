@@ -1,12 +1,12 @@
 from brain_games.cli import welcome_user
-from brain_games.games.even import even
+from brain_games.games.calc import calc
 
 
 def main():
     print('Welcome to the Brain Games!')
-    print('Answer "yes" if number even otherwise answer "no".')
+    print('What is the result of the expression?')
     name = welcome_user()
-    result = even()
+    result = calc()
     if result:
         print('Congratulations,', name)
     else:
