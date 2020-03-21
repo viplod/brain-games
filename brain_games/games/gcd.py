@@ -4,10 +4,11 @@ import prompt
 
 def divisor(val1, val2):
     maxdivisor = 1
-    for index in range(1, val1 +1):
+    for index in range(1, val1 + 1):
         if (val1 % index == 0) and (val2 % index == 0):
             maxdivisor = index
     return maxdivisor
+
 
 def gcd():
     for _ in range(0, 3):
@@ -20,7 +21,7 @@ def gcd():
         elif number1 < number2:
             result = divisor(number1, number2)
         else:
-            result = number1        
+            result = number1
         if answer == result:
             print('Correct!')
         else:

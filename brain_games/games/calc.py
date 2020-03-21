@@ -15,19 +15,22 @@ def calc():
             if number1 + number2 == int(answer):
                 print('Correct!')
             else:
-                print(answer, ' is wrong answer ;(. Correct answer was ', str(number1 + number2))
+                print(answer, ' is wrong answer ;(. Correct answer was ',
+                      str(number1 + number2))
                 return False
         elif operation == '-':
             if number1 - number2 == int(answer):
                 print('Correct!')
             else:
-                print(answer, ' is wrong answer ;(. Correct answer was ', str(number1 - number2))
+                print(answer, ' is wrong answer ;(. Correct answer was ',
+                      str(number1 - number2))
                 return False
         elif operation == '*':
             if number1 * number2 == int(answer):
                 print('Correct!')
             else:
-                print(answer, ' is wrong answer ;(. Correct answer was ', str(number1 * number2))
+                print(answer, ' is wrong answer ;(. Correct answer was ',
+                      str(number1 * number2))
                 return False
         else:
             return False
