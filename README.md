@@ -29,3 +29,12 @@ Find the greatest common divisor of given numbers.
 
 [![asciicast](https://asciinema.org/a/zyD0CL7Uhy0P47c1u8lgYJTJO.svg)](https://asciinema.org/a/zyD0CL7Uhy0P47c1u8lgYJTJO)
 [![asciicast](https://asciinema.org/a/0ddyVH5TxEejEKbGd8bdwg70P.svg)](https://asciinema.org/a/0ddyVH5TxEejEKbGd8bdwg70P)
+
+## Brain-progression game
+What number is missing in the progression?'
+
+#### Run game
+```$ brain-progression```
+
+[![asciicast](https://asciinema.org/a/pHDely5x3w7YWIUBNgvwXW8Ao.svg)](https://asciinema.org/a/pHDely5x3w7YWIUBNgvwXW8Ao)
+[![asciicast](https://asciinema.org/a/UPdwRSGKldki6uALVQZmzaUTe.svg)](https://asciinema.org/a/UPdwRSGKldki6uALVQZmzaUTe)
