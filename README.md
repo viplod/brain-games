@@ -16,8 +16,16 @@ Answer "yes" if number even otherwise answer "no".
 What is the result of the expression?
 
 #### Run game
-```$ brain-even```  
+```$ brain-calc```  
 
 [![asciicast](https://asciinema.org/a/IHefnI7VKrTsReOgsMMiFlS3L.svg)](https://asciinema.org/a/IHefnI7VKrTsReOgsMMiFlS3L)
 [![asciicast](https://asciinema.org/a/OnixPFVFx3gEOktxtUtkhmaog.svg)](https://asciinema.org/a/OnixPFVFx3gEOktxtUtkhmaog)
 
+## Brain-gcd game
+Find the greatest common divisor of given numbers.
+
+#### Run game
+```$ brain-gcd```  
+
+[![asciicast](https://asciinema.org/a/zyD0CL7Uhy0P47c1u8lgYJTJO.svg)](https://asciinema.org/a/zyD0CL7Uhy0P47c1u8lgYJTJO)
+[![asciicast](https://asciinema.org/a/0ddyVH5TxEejEKbGd8bdwg70P.svg)](https://asciinema.org/a/0ddyVH5TxEejEKbGd8bdwg70P)
