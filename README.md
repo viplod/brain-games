@@ -38,3 +38,12 @@ What number is missing in the progression?'
 
 [![asciicast](https://asciinema.org/a/pHDely5x3w7YWIUBNgvwXW8Ao.svg)](https://asciinema.org/a/pHDely5x3w7YWIUBNgvwXW8Ao)
 [![asciicast](https://asciinema.org/a/UPdwRSGKldki6uALVQZmzaUTe.svg)](https://asciinema.org/a/UPdwRSGKldki6uALVQZmzaUTe)
+
+## Brain-prime game
+Answer "yes" if given number is prime. Otherwise answer "no".
+
+#### Run game
+```$ brain-prime```
+
+[![asciicast](https://asciinema.org/a/JZ0savoLBq8qBMOeMfVRmBJwe.svg)](https://asciinema.org/a/JZ0savoLBq8qBMOeMfVRmBJwe)
+[![asciicast](https://asciinema.org/a/nAy87MWoS96jHfCJqXISh1nWa.svg)](https://asciinema.org/a/nAy87MWoS96jHfCJqXISh1nWa)
