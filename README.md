@@ -1,3 +1,9 @@
+# Brain Games
+
+[![Maintainability](https://api.codeclimate.com/v1/badges/2d4e4e32cd61833ba32d/maintainability)](https://codeclimate.com/github/viplod/python-project-lvl1-1/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/2d4e4e32cd61833ba32d/test_coverage)](https://codeclimate.com/github/viplod/python-project-lvl1-1/test_coverage)
+[![Build Status](https://travis-ci.org/viplod/python-project-lvl1.svg?branch=master)](https://travis-ci.org/viplod/python-project-lvl1)
+
 ## Installation
 ```$ pip3 install --user --index-url https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple viplod_brain_games```
 
