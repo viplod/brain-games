@@ -1,5 +1,5 @@
 import random
-import prompt
+from brain_games.cli import get_answer
 
 
 def is_even(number):
@@ -13,7 +13,7 @@ def even():
     for _ in range(0, 3):
         number = random.randint(0, 99)
         print('Question ', str(number))
-        answer = prompt.string('You answer: ')
+        answer = get_answer()
         if is_even(number) and answer == "yes":
             print('Correct!')
         elif not is_even(number) and answer == "no":

@@ -1,5 +1,5 @@
 import random
-import prompt
+from brain_games.cli import get_answer
 
 
 def progression():
@@ -11,8 +11,8 @@ def progression():
         result = progression[index]
         progression[index] = '..'
         print('Question ', str(progression))
-        answer = prompt.integer('You answer: ')
-        if answer == result:
+        answer = get_answer()
+        if int(answer) == result:
             print('Correct!')
         else:
             print(answer, ' is wrong answer ;(. Correct answer was ', result)

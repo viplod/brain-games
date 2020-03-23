@@ -1,5 +1,5 @@
 import random
-import prompt
+from brain_games.cli import get_answer
 
 
 def divisor(val1, val2):
@@ -15,14 +15,14 @@ def gcd():
         number1 = random.randint(1, 99)
         number2 = random.randint(1, 99)
         print('Question ', str(number1), str(number2))
-        answer = prompt.integer('You answer: ')
+        answer = get_answer()
         if number1 > number2:
             result = divisor(number2, number1)
         elif number1 < number2:
             result = divisor(number1, number2)
         else:
             result = number1
-        if answer == result:
+        if int(answer) == result:
             print('Correct!')
         else:
             print(answer, ' is wrong answer ;(. Correct answer was ', result)

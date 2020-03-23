@@ -1,5 +1,5 @@
 import random
-import prompt
+from brain_games.cli import get_answer
 
 
 def calc():
@@ -10,7 +10,7 @@ def calc():
         number2 = random.randint(0, 99)
         string = 'Question:, {} {} {}'.format(number1, operation, number2)
         print(string)
-        answer = prompt.string('You answer: ')
+        answer = get_answer()
         if operation == '+':
             if number1 + number2 == int(answer):
                 print('Correct!')
