@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/viplod/python-project-lvl1.svg?branch=master)](https://travis-ci.org/viplod/python-project-lvl1)
+
 ## Installation
 ```$ pip3 install --user --index-url https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple viplod_brain_games```
 
