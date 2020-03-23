@@ -1,10 +1,15 @@
 [tool.poetry]
 name = "VIPLOD_brain_games"
 version = "0.6.0"
-description = ""
+description = "Brain games project on hexlet.io"
 authors = ["Viplod <viplod@yandex.ru>"]
+repository = "https://github.com/viplod/python-project-lvl1"
 packages = [
 	{ include = "brain_games"},
+]
+
+classifiers = [
+	"Topic :: Education"
 ]
 
 [tool.poetry.scripts]
@@ -16,7 +21,7 @@ brain-progression = "brain_games.scripts.brain_progression:main"
 brain-prime = "brain_games.scripts.brain_prime:main"
 
 [tool.poetry.dependencies]
-python = "3.6.7"
+python = "^3.6.7"
 prompt = "^0.4.1"
 
 [tool.poetry.dev-dependencies]
