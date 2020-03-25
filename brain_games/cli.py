@@ -6,7 +6,7 @@ def get_name_user():
     print('Hello, ' + name + '!')
     return name
 
-def get_answer():
-	answer = prompt.string('You answer: ')	
-	return answer
 
+def get_answer():
+    answer = prompt.string('You answer: ')
+    return answer

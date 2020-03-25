@@ -1,27 +1,17 @@
 import random
-from brain_games.cli import get_answer
+
+
+DESCRIPTION = 'Answer "yes" if number even otherwise answer "no".'
 
 
 def is_even(number):
-    if number % 2 == 0:
-        return True
+    return number % 2 == 0
+
+
+def generate_round():
+    question = random.randint(1, 99)
+    if is_even(question):
+        answer = "yes"
     else:
-        return False
-
-
-def even():
-    for _ in range(0, 3):
-        number = random.randint(0, 99)
-        print('Question ', str(number))
-        answer = get_answer()
-        if is_even(number) and answer == "yes":
-            print('Correct!')
-        elif not is_even(number) and answer == "no":
-            print('Correct!')
-        elif is_even(number):
-            print("'no' is wrong answer ;(. Correct answer was 'yes'.")
-            return False
-        else:
-            print("'yes' is wrong answer ;(. Correct answer was 'no'.")
-            return False
-    return True
+        answer = "no"
+    return question, answer

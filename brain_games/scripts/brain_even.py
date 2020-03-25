@@ -1,14 +1,9 @@
-from brain_games.cli import get_name_user
-from brain_games.games.even import even
+from brain_games.games import even
+from brain_games.engine import run
 
-DESCRIPTION = 'Answer "yes" if number even otherwise answer "no".'
 
 def main():
-    result = even()
-    if result:
-        print('Congratulations,', name)
-    else:
-        print("Let's try again,", name, "!")
+    run(even)
 
 
 if __name__ == '__main__':
