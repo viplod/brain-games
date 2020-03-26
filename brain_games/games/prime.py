@@ -1,5 +1,7 @@
 import random
-from brain_games.cli import get_answer
+
+
+DESCRIPTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
 def is_prime(number):
@@ -9,19 +11,11 @@ def is_prime(number):
     return True
 
 
-def prime():
-    for _ in range(0, 3):
-        number = random.randint(0, 99)
-        print('Question ', str(number))
-        answer = get_answer()
-        if is_prime(number) and answer == "yes":
-            print('Correct!')
-        elif not is_prime(number) and answer == "no":
-            print('Correct!')
-        elif is_prime(number):
-            print("'no' is wrong answer ;(. Correct answer was 'yes'.")
-            return False
-        else:
-            print("'yes' is wrong answer ;(. Correct answer was 'no'.")
-            return False
-    return True
+def generate_round():
+    question = random.randint(1, 99)
+    answer = is_prime(question)
+    if is_prime(question):
+        answer = "yes"
+    else:
+        answer = "no"
+    return question, answer

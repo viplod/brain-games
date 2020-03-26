@@ -1,15 +1,9 @@
-from brain_games.cli import get_name_user
-from brain_games.games.gcd import gcd
-
-DESCRIPTION = 'Find the greatest common divisor of given numbers.'
+from brain_games.games import gcd
+from brain_games.engine import run
 
 
 def main():
-    result = gcd()
-    if result:
-        print('Congratulations,', name)
-    else:
-        print("Let's try again,", name, "!")
+    run(gcd)
 
 
 if __name__ == '__main__':

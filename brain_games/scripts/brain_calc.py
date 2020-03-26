@@ -1,15 +1,9 @@
-from brain_games.cli import get_name_user
-from brain_games.games.calc import calc
-
-DESCRIPTION = "What is the result of the expression?"
+from brain_games.games import calc
+from brain_games.engine import run
 
 
 def main():
-    result = calc()
-    if result:
-        print('Congratulations,', name)
-    else:
-        print("Let's try again,", name, "!")
+    run(calc)
 
 
 if __name__ == '__main__':

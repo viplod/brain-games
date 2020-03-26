@@ -1,15 +1,9 @@
-from brain_games.cli import get_name_user
-from brain_games.games.progression import progression
+from brain_games.games import progression
+from brain_games.engine import run
 
-
-DESCRIPTION = 'What number is missing in the progression?'
 
 def main():
-    result = progression()
-    if result:
-        print('Congratulations,', name)
-    else:
-        print("Let's try again,", name, "!")
+    run(progression)
 
 
 if __name__ == '__main__':
