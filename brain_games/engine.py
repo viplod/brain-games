@@ -11,7 +11,7 @@ def run(game=None):
     name = get_user_name()
     for _ in range(NUMBER_OF_GAMES):
         question, answer = game.generate_round()
-        print(f'Question , {question}')
+        print(f'Question, {question}')
         user_answer = get_answer()
         if user_answer != answer:
             print(f'{user_answer} is wrong answer ;(., correct answer '
