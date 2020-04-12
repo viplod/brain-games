@@ -23,5 +23,3 @@ def generate_round():
     question = 'Question:, {} {} {}'.format(number1, operation, number2)
     answer = get_result_calculation(func, number1, number2)
     return question, str(answer)
-
-

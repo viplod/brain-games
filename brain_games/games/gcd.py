@@ -6,7 +6,7 @@ DESCRIPTION = 'Find the greatest common divisor of given numbers.'
 
 def divisor(a, b):
     while b != 0:
-   	    a, b = b, a % b
+        a, b = b, a % b
     return a
 
 
