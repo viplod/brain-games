@@ -1,17 +1,15 @@
-from brain_games.cli import get_name_user
+from brain_games.cli import get_user_name
 from brain_games.cli import get_answer
 
 
-COUNT_GAMES = 3
+NUMBER_OF_GAMES = 3
 
 
 def run(game=None):
     print('Welcome to the Brain Games!')
-    if not game:
-        return
     print(game.DESCRIPTION)
-    name = get_name_user()
-    for _ in range(COUNT_GAMES):
+    name = get_user_name()
+    for _ in range(NUMBER_OF_GAMES):
         question, answer = game.generate_round()
         print(f'Question , {question}')
         user_answer = get_answer()

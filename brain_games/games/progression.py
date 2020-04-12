@@ -11,5 +11,5 @@ def generate_round():
     progression = list(range(start, start + step * 10, step))
     answer = progression[index]
     progression[index] = '..'
-    question = str(progression)
+    question = ' '.join(map(str, progression))
     return question, str(answer)

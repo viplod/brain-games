@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "VIPLOD_brain_games"
-version = "0.7.0"
+version = "0.8.0"
 description = "Brain games project on hexlet.io"
 authors = ["Viplod <viplod@yandex.ru>"]
 repository = "https://github.com/viplod/python-project-lvl1"
