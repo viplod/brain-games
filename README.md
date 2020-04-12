@@ -42,8 +42,8 @@ What number is missing in the progression?'
 #### Run game
 ```$ brain-progression```
 
-[![asciicast](https://asciinema.org/a/pHDely5x3w7YWIUBNgvwXW8Ao.svg)](https://asciinema.org/a/pHDely5x3w7YWIUBNgvwXW8Ao)
-[![asciicast](https://asciinema.org/a/UPdwRSGKldki6uALVQZmzaUTe.svg)](https://asciinema.org/a/UPdwRSGKldki6uALVQZmzaUTe)
+[![asciicast](https://asciinema.org/a/6daP77QgHJTr5W2f7mBeedzzy.svg)](https://asciinema.org/a/6daP77QgHJTr5W2f7mBeedzzy)
+[![asciicast](https://asciinema.org/a/sILmKsh69TI1xpwnOcnILWeCD.svg)](https://asciinema.org/a/sILmKsh69TI1xpwnOcnILWeCD)
 
 ## Brain-prime game
 Answer "yes" if given number is prime. Otherwise answer "no".
